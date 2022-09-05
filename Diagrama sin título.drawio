@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T22:35:57.880Z" agent="5.0 (X11)" etag="9rVXIp4myOdf0rt7fmBf" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T22:38:33.596Z" agent="5.0 (X11)" etag="Jb_jn7XYNmSJVq9ZxXKW" version="20.2.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="556" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="711" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="2hm801KUPodxUYUeMRcq-35" value="False" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="260" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2hm801KUPodxUYUeMRcq-39" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="2hm801KUPodxUYUeMRcq-39" value="&lt;div&gt;Sistema de Validación&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="2hm801KUPodxUYUeMRcq-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2hm801KUPodxUYUeMRcq-39">
