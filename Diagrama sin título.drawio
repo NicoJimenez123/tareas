@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T22:13:33.913Z" agent="5.0 (X11)" etag="xPPo_QCLz2RZVBfBCdRJ" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T22:15:32.430Z" agent="5.0 (X11)" etag="vWy9Q1-Y3SUj2Pjw-jc5" version="20.2.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="666" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,18 +10,16 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="seleccionarLibros(libros) : void" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="160" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HV7yqO0Fd3EdS19gt6hy-1" value="PedidosService" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2hm801KUPodxUYUeMRcq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="2hm801KUPodxUYUeMRcq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="200" as="sourcePoint" />
-            <mxPoint x="340" y="200" as="targetPoint" />
+            <mxPoint x="160" y="170" as="sourcePoint" />
+            <mxPoint x="350" y="201" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="160" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2hm801KUPodxUYUeMRcq-8" value="realizarPedidos() : " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2hm801KUPodxUYUeMRcq-7">
