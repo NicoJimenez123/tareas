@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T22:38:33.596Z" agent="5.0 (X11)" etag="Jb_jn7XYNmSJVq9ZxXKW" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T22:41:48.344Z" agent="5.0 (X11)" etag="k9nvsFTyGjxQDJEtWlft" version="20.2.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="711" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         </mxCell>
         <mxCell id="2hm801KUPodxUYUeMRcq-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HV7yqO0Fd3EdS19gt6hy-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="390" as="sourcePoint" />
+            <mxPoint x="740" y="380" as="sourcePoint" />
             <mxPoint x="770" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -71,6 +71,9 @@
           <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
             <mxPoint x="-12" y="-12" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2hm801KUPodxUYUeMRcq-47" value="Libreria" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
