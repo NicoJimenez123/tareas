@@ -1,0 +1,74 @@
+class Product {
+  // Salsa
+  ingrediente1 = false
+  ingrediente2 = false
+
+  setIngrediente1 (ingrediente) {
+    this.ingrediente1 = ingrediente
+  }
+
+  setIngrediente2 (ingrediente) {
+    this.ingrediente2 = ingrediente
+  }
+
+  listarIngredientes() {
+    console.log(`Ingrediente 1: ${this.ingrediente1 || "nada"}, ingrediente 2: ${this.ingrediente2 || "nada"}`)
+  }
+}
+
+class Builder {
+  // SalsaBuilder
+  salsa = new Product()
+  aniadirIngrediente1(){}
+  aniadirIngrediente2(){}
+  build() {
+    return this.salsa
+  }
+}
+
+class SpecificBuilder extends Builder {
+  // Mayonesa y Ketchup
+  aniadirIngrediente1() {
+    this.salsa.setIngrediente1("Mayonesa")
+  }
+  aniadirIngrediente2() {
+    this.salsa.setIngrediente2("Ketchup")
+  }
+}
+
+class SpecificBuilder2 extends Builder {
+  // Mostaza
+  aniadirIngrediente1() {
+    this.salsa.setIngrediente1("Mostaza")
+  }
+  aniadirIngrediente2() {
+    this.salsa.setIngrediente2("nada")
+  }
+}
+
+class Director{
+  builder // Del tipo Builder
+  setBuilder(builder){
+    this.builder = builder
+  }
+  build() {
+    this.builder.aniadirIngrediente1()
+    this.builder.aniadirIngrediente2()
+    return this.builder.build()
+  }
+}
+
+function iniciarProceso() {
+  let director = new Director()
+  director.setBuilder(new SpecificBuilder)
+  buildProduct(director)
+  director.setBuilder(new SpecificBuilder2)
+  buildProduct(director)
+}
+
+function buildProduct(director) {
+  producto = director.build()
+  producto.listarIngredientes()
+}
+
+iniciarProceso()
